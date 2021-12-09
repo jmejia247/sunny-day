@@ -9,6 +9,7 @@ class App extends React.Component {
     // const betterName = 'Jose'
     return (
       <div className="App">
+        <h1>Pursuit Weather in React</h1>
         <WeatherCard />
       </div>
     );
