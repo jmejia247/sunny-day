@@ -21,7 +21,6 @@ class WeatherCard extends Component {
     render() {
         return (
             <div className='weather-card'>
-                <h1>hello wisconsin!</h1>
                 <WeatherForm getLocation={this.getLocation}/>
                 <Weather location={this.state.location} />
             </div>
