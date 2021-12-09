@@ -24,6 +24,7 @@ class WeatherForm extends React.Component {
     }
 
     render() {
+        console.log(this.state.location)
         return(
             <div>
                 <form>

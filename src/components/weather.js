@@ -33,10 +33,13 @@ class Weather extends React.Component {
     }
 
     render() {
-        // console.log(this.state.weather, 'hello wisconsin')
+        console.log(this.state.weather, 'hello wisconsin')
         const weather = this.state.weather.map((info) => {
             return <div>
-                {info.nearest_area[0].areaName[0].value}
+                <h3>
+                    {info.nearest_area[0].areaName[0].value}
+                </h3>
+                <p>currently feels like {info.current_condition[0].FeelsLikeF}°F</p>
             </div>
             // console.log(info)
         })
